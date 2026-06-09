@@ -2,19 +2,6 @@
 
 Test execution time of isomorphism and automorphism functions in PhyloX with and without the mu-vector implementation.
 
-## Tests
-autom
-repl:
-n/k     10      50      100
-10      100     100     100
-50      100     100     20
-100     100     20      10
-
-
-isom
-n,k=10 50 100 500 1000
-repl = 50
-
 
 ## Code execution
 First create a conda environment with the remaining dependencies:
@@ -23,14 +10,9 @@ First create a conda environment with the remaining dependencies:
   conda activate phylox
 ```
 
-Run the script directly with python. For example:
+The tests are run with the testall.sh script.
+By setting USE_BSUB to 1, the tests are run with bsub on an LSF cluster.
 
 ```
-python ./var/speed_test_isom/generate.py -n 3 -k 10 -o var/speed_test_isom/networks/3_10 -l 10
+./testall.sh
 ```
-
-```
-python ./var/speed_test_isom/test.py -i ./var/speed_test_isom/networks/3_10/
-```
-
-or run it on an LSF cluster: `bsub -o hpc.out -e hpc.err testall.sh`.
