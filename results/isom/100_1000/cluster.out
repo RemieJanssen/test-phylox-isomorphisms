@@ -1,0 +1,41 @@
+Sender: LSF System <lsfadmin@rivm-comp-l17p>
+Subject: Job 36456744: <python ./src/generate.py -n 100 -k 1000 -o results/isom/100_1000 -l 50 && python ./src/test.py -i results/isom/100_1000/> in cluster <RIVM-LSF-PRD> Done
+
+Job <python ./src/generate.py -n 100 -k 1000 -o results/isom/100_1000 -l 50 && python ./src/test.py -i results/isom/100_1000/> was submitted from host <rivm-biohn-l07p.int.ssc-campus.nl> by user <jansser> in cluster <RIVM-LSF-PRD> at Tue Jun  9 16:11:04 2026
+Job was executed on host(s) <rivm-comp-l17p>, in queue <bio>, as user <jansser> in cluster <RIVM-LSF-PRD> at Tue Jun  9 16:11:05 2026
+</home/jansser> was used as the home directory.
+</home/jansser/Projects/test-phylox-isomorphisms> was used as the working directory.
+Started at Tue Jun  9 16:11:05 2026
+Terminated at Sun Jun 14 06:02:01 2026
+Results reported at Sun Jun 14 06:02:01 2026
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+python ./src/generate.py -n 100 -k 1000 -o results/isom/100_1000 -l 50 && python ./src/test.py -i results/isom/100_1000/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   394274.56 sec.
+    Max Memory :                                 92 MB
+    Average Memory :                             88.24 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   201 MB
+    Max Processes :                              3
+    Max Threads :                                4
+    Run time :                                   395456 sec.
+    Turnaround time :                            395457 sec.
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <results/isom/100_1000/cluster.err> for stderr output of this job.
+

@@ -1,0 +1,41 @@
+Sender: LSF System <lsfadmin@rivm-comp-l17p>
+Subject: Job 36456724: <python ./src/generate.py -n 10 -k 100 -o results/autom/10_100 -l 100 && python ./src/test_autom.py -i results/autom/10_100/> in cluster <RIVM-LSF-PRD> Done
+
+Job <python ./src/generate.py -n 10 -k 100 -o results/autom/10_100 -l 100 && python ./src/test_autom.py -i results/autom/10_100/> was submitted from host <rivm-biohn-l07p.int.ssc-campus.nl> by user <jansser> in cluster <RIVM-LSF-PRD> at Tue Jun  9 16:11:03 2026
+Job was executed on host(s) <rivm-comp-l17p>, in queue <bio>, as user <jansser> in cluster <RIVM-LSF-PRD> at Tue Jun  9 16:11:04 2026
+</home/jansser> was used as the home directory.
+</home/jansser/Projects/test-phylox-isomorphisms> was used as the working directory.
+Started at Tue Jun  9 16:11:04 2026
+Terminated at Wed Jun 10 01:08:27 2026
+Results reported at Wed Jun 10 01:08:27 2026
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+python ./src/generate.py -n 10 -k 100 -o results/autom/10_100 -l 100 && python ./src/test_autom.py -i results/autom/10_100/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   32145.44 sec.
+    Max Memory :                                 53 MB
+    Average Memory :                             51.62 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   168 MB
+    Max Processes :                              3
+    Max Threads :                                4
+    Run time :                                   32243 sec.
+    Turnaround time :                            32244 sec.
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <results/autom/10_100/cluster.err> for stderr output of this job.
+
